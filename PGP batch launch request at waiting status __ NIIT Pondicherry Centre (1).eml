@@ -1,0 +1,708 @@
+Delivered-To: hariharanrniit@gmail.com
+Received: by 2002:ab3:62c9:0:0:0:0:0 with SMTP id h9csp7099109ltf;
+        Mon, 30 Sep 2019 06:20:52 -0700 (PDT)
+X-Google-Smtp-Source: APXvYqzVXHwGfKCttViCIb1fEQjW5B0wQ7yKXClwzVSWFEU0pLB52m67rSAo/x7/sFmPJnDdsKZP
+X-Received: by 2002:a0d:c3c6:: with SMTP id f189mr13355561ywd.397.1569849652702;
+        Mon, 30 Sep 2019 06:20:52 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1569849652; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ZqJdzVantiDLE16TaPFaUDkZdyPTsBf+s0nxad+n4TnPumAC8rkh2zv3OH1Y3IMbkA
+         aE4sIKC2gn0heHVd2Um3y2oy9Cg0hdsomQtYuAhL3HlnKSHggI+Y2h7+lz8oltoywTgH
+         rtnBdi5UK2SebsE/Y7YsPYnij7Hal7lusXjyrtC0QzP42BxEmCQjXXJTYdW6N5K7r/Qx
+         u0vJ5vnjOhPU1S+Wjdv341G2XdxJhj/5aw5WQm+/YQJ3hTOpBTEgPzzGaOOco2PJ6yW6
+         rUEG4XbkQMWEGSw3sca+tudsg9SNdn40+3BAyJq9HV/OOgCaIhkFp+0g+8JUEmtIWWXr
+         28rg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:message-id:date:subject:to:from:thread-index
+         :thread-topic;
+        bh=3rvRuHUO2rbLA5yEh4n4X2h90GB14ApzXJMYFAniH7w=;
+        b=cF32qnk6e3c41JLWW1PujdfjHIQ0nbFQDwxYRd67N636iC50e7cRGAoEXbD6m8iT2r
+         FnO/tAFzVTKtJ/5rscocC8AaeY8MVBcRNdf/3FUR98gY473xQlzHXl7C1Xii/jn8XxaF
+         clAhD5k4yZCOXvqF5YquH3zy87VYGL7I5v80Pu+0HbKTjdrRpjnhuq1/07+kCt/dkxOs
+         MaVn0VJhMlMwD5ua9/3uyKIVFXJi/Hh/ZCsiaoQ4mSQi2lHkVOXVkpXucXdpV14COpua
+         NdvqT6lo/A0ZQP0VaNOGDA8MewmVnJcq9szR9S9jwNKB6U+eQWtL1ttWjtaP2EUTU2JT
+         UcUQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of saravanan.1.p@niit.com designates 14.140.106.19 as permitted sender) smtp.mailfrom=Saravanan.1.P@niit.com
+Return-Path: <Saravanan.1.P@niit.com>
+Received: from mail4.niit.com (mail4.niit.com. [14.140.106.19])
+        by mx.google.com with ESMTPS id n18si4300200ywh.271.2019.09.30.06.20.50
+        for <hariharanrniit@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 30 Sep 2019 06:20:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of saravanan.1.p@niit.com designates 14.140.106.19 as permitted sender) client-ip=14.140.106.19;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of saravanan.1.p@niit.com designates 14.140.106.19 as permitted sender) smtp.mailfrom=Saravanan.1.P@niit.com
+Received: from 172.17.1.246 ([172.17.1.246])
+	by mail4.niit.com
+	over TLS secured channel (TLSv1.2:ECDHE-RSA-AES256-SHA384:256)
+	with XWall v3.55c ;
+	Mon, 30 Sep 2019 18:50:48 +0530
+Received: from INGGN-CNF-MAIL1.in.niit.com (172.17.1.245) by
+ INGGN-CNF-MAIL2.in.niit.com (172.17.1.246) with Microsoft SMTP Server (TLS)
+ id 15.0.1473.3; Mon, 30 Sep 2019 18:50:47 +0530
+Received: from INGGN-CNF-MAIL1.in.niit.com ([fe80::2126:9db8:82c5:9f2e]) by
+ INGGN-CNF-MAIL1.in.niit.com ([fe80::2126:9db8:82c5:9f2e%20]) with mapi id
+ 15.00.1473.005; Mon, 30 Sep 2019 18:50:47 +0530
+Thread-Topic: PGP batch launch request at waiting status :: NIIT Pondicherry
+ Centre 
+Thread-Index: AdV3kW12YSQmxIVIRTKoad29n/pB9w==
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [220.226.191.121]
+From: Saravanan P <Saravanan.1.P@niit.com>
+To: "hariharanrniit@gmail.com" <hariharanrniit@gmail.com>
+Subject: PGP batch launch request at waiting status :: NIIT Pondicherry Centre
+Date: Mon, 30 Sep 2019 18:50:47 +0530
+X-Assembled-By: XWall v3.55c
+Message-ID: <7e2aa48004314dba8cfc350bad12be78@INGGN-CNF-MAIL1.in.niit.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="_NextPart_1_5b3olcjeVegGJhUvUzHQIHNtxTs"
+
+This is a multi part MIME message.
+
+--_NextPart_1_5b3olcjeVegGJhUvUzHQIHNtxTs
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Please find below approval mail.
+
+From: Saravanan P
+Sent: Monday, September 30, 2019 6:01 PM
+To: P V D RaviKiran <PVDRaviKiran@niit.com>
+Cc: R S R Krishna <RSRKrishna@niit.com>
+Subject: PGP batch launch request at waiting status :: NIIT Pondicherry Cent=
+re
+
+Yes sir.
+
+From: P V D RaviKiran <PVDRaviKiran@niit.com<mailto:PVDRaviKiran@niit.com>>
+Sent: Monday, September 30, 2019 6:02 PM
+To: Saravanan P <Saravanan.1.P@niit.com<mailto:Saravanan.1.P@niit.com>>
+Cc: R S R Krishna <RSRKrishna@niit.com<mailto:RSRKrishna@niit.com>>
+Subject: RE: PGP batch launch request at waiting status :: NIIT Pondicherry =
+Centre
+
+You can go ahead, however if the fac does not clear by 15th oct, will you en=
+sure the faculty is pullout of the batch and batch will be on hold? Can you =
+guarantee this?
+
+From: Saravanan P <Saravanan.1.P@niit.com<mailto:Saravanan.1.P@niit.com>>
+Sent: 30 September 2019 17:48
+To: P V D RaviKiran <PVDRaviKiran@niit.com<mailto:PVDRaviKiran@niit.com>>
+Cc: R S R Krishna <RSRKrishna@niit.com<mailto:RSRKrishna@niit.com>>
+Subject: PGP batch launch request at waiting status :: NIIT Pondicherry Cent=
+re
+Importance: High
+
+Dear sir,
+
+Pondicherry Centre Mentor Aravind has 4 paper pending on below mentioned PGP=
+ FACT, remaining paper cleared (please refer attachment).
+Mentor has given us FACT plan  for completing pending modules on or before 1=
+5th  October .
+
+
+=C2=B7        RDBMS =E2=80=93 3rd October
+
+=C2=B7        Junit =E2=80=93 6th October
+
+=C2=B7        Term3 Fact 1 =E2=80=93 10th October
+
+=C2=B7        Term3 Fact 2 =E2=80=93 15th October
+
+Kindly approve to take new PGP registration at waiting status.
+
+Centre : 11820 =E2=80=93 NIIT Chennai Pondicherry Centre.
+
+Sno
+
+NCS IT Term1
+
+NCS  IT
+Term2
+
+NCS IT
+Term3
+
+1
+
+C++ - cleared
+
+RDBMS =E2=80=93 Not cleared
+
+FACT1(HB, Spring, Node) =E2=80=93Not cleared
+
+2
+
+DS =E2=80=93 cleared
+
+Junit (TDD) =E2=80=93 Not cleared
+
+FACT2(Angular and React) =E2=80=93
+Not cleared
+
+3
+
+Java- cleared
+
+Advance Java =E2=80=93cleared
+
+
+
+4
+
+
+
+HTML5 -cleared
+
+
+
+
+Regards, Saravanan
+
+From: NIIT Pondy <niit.puducherry@gmail.com<mailto:niit.puducherry@gmail.com=
+>>
+Sent: Monday, September 30, 2019 3:58 PM
+To: Saravanan P <Saravanan.1.P@niit.com<mailto:Saravanan.1.P@niit.com>>
+Subject: Fwd: FACT report
+
+
+Dear sir,
+=20          FACT report, file attached ., please find the attachment.
+thank you.
+
+--
+With regards,
+NIIT Pondicherry Team,
+Phone- 0413-4206840
+
+Visit us at: http://www.niit.com
+Follow us on: http://www.twitter.com/niitltd
+
+----------------------------------------------------------------------------=
+---------------------------------
+
+DISCLAIMER
+This email and any files transmitted with it are confidential and are solely=
+ for the use of the individual or entity to which it is addressed. Any use, =
+distribution, copying or disclosure by any other person is strictly prohibit=
+ed. If you receive this transmission in error, please notify the sender by r=
+eply email and then destroy the message. Opinions, conclusions and other inf=
+ormation in this message that do not relate to official business of the comp=
+any shall be understood to be neither given nor endorsed by NIIT Ltd. Any in=
+formation contained in this email, when addressed to Clients is subject to t=
+he terms and conditions in governing client contract.
+
+--_NextPart_1_5b3olcjeVegGJhUvUzHQIHNtxTs
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micro=
+soft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" xm=
+lns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http://w=
+ww.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+=09{font-family:Wingdings;
+=09panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+=09{font-family:"Cambria Math";
+=09panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+=09{font-family:Calibri;
+=09panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+=09{margin:0in;
+=09margin-bottom:.0001pt;
+=09font-size:12.0pt;
+=09font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+=09{mso-style-priority:99;
+=09color:#0563C1;
+=09text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+=09{mso-style-priority:99;
+=09color:#954F72;
+=09text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+=09{mso-style-priority:34;
+=09margin-top:0in;
+=09margin-right:0in;
+=09margin-bottom:0in;
+=09margin-left:.5in;
+=09margin-bottom:.0001pt;
+=09font-size:12.0pt;
+=09font-family:"Times New Roman",serif;}
+p.msonormal0, li.msonormal0, div.msonormal0
+=09{mso-style-name:msonormal;
+=09mso-margin-top-alt:auto;
+=09margin-right:0in;
+=09mso-margin-bottom-alt:auto;
+=09margin-left:0in;
+=09font-size:12.0pt;
+=09font-family:"Times New Roman",serif;}
+span.EmailStyle19
+=09{mso-style-type:personal;
+=09font-family:"Calibri",sans-serif;
+=09color:#1F497D;}
+span.EmailStyle20
+=09{mso-style-type:personal;
+=09font-family:"Calibri",sans-serif;
+=09color:#1F497D;}
+span.EmailStyle21
+=09{mso-style-type:personal;
+=09font-family:"Calibri",sans-serif;
+=09color:#1F497D;}
+span.EmailStyle22
+=09{mso-style-type:personal;
+=09font-family:"Calibri",sans-serif;
+=09color:#1F497D;}
+span.EmailStyle23
+=09{mso-style-type:personal-reply;
+=09font-family:"Calibri",sans-serif;
+=09color:#1F497D;}
+=2EMsoChpDefault
+=09{mso-style-type:export-only;
+=09font-size:10.0pt;}
+@page WordSection1
+=09{size:8.5in 11.0in;
+=09margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+=09{page:WordSection1;}
+/* List Definitions */
+@list l0
+=09{mso-list-id:1418282777;
+=09mso-list-type:hybrid;
+=09mso-list-template-ids:-1623055318 67698689 67698691 67698693 67698689 676=
+98691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+=09{mso-level-number-format:bullet;
+=09mso-level-text:=EF=82=B7;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09text-indent:-.25in;
+=09font-family:Symbol;}
+@list l0:level2
+=09{mso-level-number-format:bullet;
+=09mso-level-text:o;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09text-indent:-.25in;
+=09font-family:"Courier New";}
+@list l0:level3
+=09{mso-level-number-format:bullet;
+=09mso-level-text:=EF=82=A7;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09text-indent:-.25in;
+=09font-family:Wingdings;}
+@list l0:level4
+=09{mso-level-number-format:bullet;
+=09mso-level-text:=EF=82=B7;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09text-indent:-.25in;
+=09font-family:Symbol;}
+@list l0:level5
+=09{mso-level-number-format:bullet;
+=09mso-level-text:o;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09text-indent:-.25in;
+=09font-family:"Courier New";}
+@list l0:level6
+=09{mso-level-number-format:bullet;
+=09mso-level-text:=EF=82=A7;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09text-indent:-.25in;
+=09font-family:Wingdings;}
+@list l0:level7
+=09{mso-level-number-format:bullet;
+=09mso-level-text:=EF=82=B7;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09text-indent:-.25in;
+=09font-family:Symbol;}
+@list l0:level8
+=09{mso-level-number-format:bullet;
+=09mso-level-text:o;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09text-indent:-.25in;
+=09font-family:"Courier New";}
+@list l0:level9
+=09{mso-level-number-format:bullet;
+=09mso-level-text:=EF=82=A7;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09text-indent:-.25in;
+=09font-family:Wingdings;}
+ol
+=09{margin-bottom:0in;}
+ul
+=09{margin-bottom:0in;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D">Please find below approval mail.<o:p></=
+o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0=
+in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot;=
+Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;fo=
+nt-family:&quot;Calibri&quot;,sans-serif"> Saravanan P
+<br>
+<b>Sent:</b> Monday, September 30, 2019 6:01 PM<br>
+<b>To:</b> P V D RaviKiran &lt;PVDRaviKiran@niit.com&gt;<br>
+<b>Cc:</b> R S R Krishna &lt;RSRKrishna@niit.com&gt;<br>
+<b>Subject:</b> PGP batch launch request at waiting status :: NIIT Pondicher=
+ry Centre
+<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D">Yes sir.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0=
+in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot;=
+Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;fo=
+nt-family:&quot;Calibri&quot;,sans-serif"> P V D RaviKiran &lt;<a href=3D"ma=
+ilto:PVDRaviKiran@niit.com">PVDRaviKiran@niit.com</a>&gt;
+<br>
+<b>Sent:</b> Monday, September 30, 2019 6:02 PM<br>
+<b>To:</b> Saravanan P &lt;<a href=3D"mailto:Saravanan.1.P@niit.com">Saravan=
+an.1.P@niit.com</a>&gt;<br>
+<b>Cc:</b> R S R Krishna &lt;<a href=3D"mailto:RSRKrishna@niit.com">RSRKrish=
+na@niit.com</a>&gt;<br>
+<b>Subject:</b> RE: PGP batch launch request at waiting status :: NIIT Pondi=
+cherry Centre
+<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-IN" style=3D"font-size:11.0pt;font-f=
+amily:&quot;Calibri&quot;,sans-serif;color:#1F497D">You can go ahead, howeve=
+r if the fac does not clear by 15<sup>th</sup> oct, will you ensure the facu=
+lty is pullout of the batch and batch will be
+=20on hold? Can you guarantee this?<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-IN" style=3D"font-size:11.0pt;font-f=
+amily:&quot;Calibri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span>=
+</p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0=
+in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot;=
+Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;fo=
+nt-family:&quot;Calibri&quot;,sans-serif"> Saravanan P &lt;<a href=3D"mailto=
+:Saravanan.1.P@niit.com">Saravanan.1.P@niit.com</a>&gt;
+<br>
+<b>Sent:</b> 30 September 2019 17:48<br>
+<b>To:</b> P V D RaviKiran &lt;<a href=3D"mailto:PVDRaviKiran@niit.com">PVDR=
+aviKiran@niit.com</a>&gt;<br>
+<b>Cc:</b> R S R Krishna &lt;<a href=3D"mailto:RSRKrishna@niit.com">RSRKrish=
+na@niit.com</a>&gt;<br>
+<b>Subject:</b> PGP batch launch request at waiting status :: NIIT Pondicher=
+ry Centre
+<br>
+<b>Importance:</b> High<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><span lang=3D"EN-IN"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D">Dear sir,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D">Pondicherry Centre Mentor Aravind has 4=
+ paper pending on below mentioned PGP FACT, remaining paper cleared (please =
+refer attachment).<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D">Mentor has given us FACT plan &nbsp;for=
+ completing pending modules on or before 15<sup>th</sup> &nbsp;October<sup>
+</sup>.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoListParagraph" style=3D"text-indent:-.25in;mso-list:l0 level1=
+ lfo2"><![if !supportLists]><span style=3D"font-size:11.0pt;font-family:Symb=
+ol;color:#1F497D"><span style=3D"mso-list:Ignore">=C2=B7<span style=3D"font:=
+7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;
+</span></span></span><![endif]><span style=3D"font-size:11.0pt;font-family:&=
+quot;Calibri&quot;,sans-serif;color:#1F497D">RDBMS =E2=80=93 3rd October<o:p=
+></o:p></span></p>
+<p class=3D"MsoListParagraph" style=3D"text-indent:-.25in;mso-list:l0 level1=
+ lfo2"><![if !supportLists]><span style=3D"font-size:11.0pt;font-family:Symb=
+ol;color:#1F497D"><span style=3D"mso-list:Ignore">=C2=B7<span style=3D"font:=
+7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;
+</span></span></span><![endif]><span style=3D"font-size:11.0pt;font-family:&=
+quot;Calibri&quot;,sans-serif;color:#1F497D">Junit =E2=80=93 6<sup>th</sup> =
+October<o:p></o:p></span></p>
+<p class=3D"MsoListParagraph" style=3D"text-indent:-.25in;mso-list:l0 level1=
+ lfo2"><![if !supportLists]><span style=3D"font-size:11.0pt;font-family:Symb=
+ol;color:#1F497D"><span style=3D"mso-list:Ignore">=C2=B7<span style=3D"font:=
+7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;
+</span></span></span><![endif]><span style=3D"font-size:11.0pt;font-family:&=
+quot;Calibri&quot;,sans-serif;color:#1F497D">Term3 Fact 1 =E2=80=93 10<sup>t=
+h</sup> October<o:p></o:p></span></p>
+<p class=3D"MsoListParagraph" style=3D"text-indent:-.25in;mso-list:l0 level1=
+ lfo2"><![if !supportLists]><span style=3D"font-size:11.0pt;font-family:Symb=
+ol;color:#1F497D"><span style=3D"mso-list:Ignore">=C2=B7<span style=3D"font:=
+7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;
+</span></span></span><![endif]><span style=3D"font-size:11.0pt;font-family:&=
+quot;Calibri&quot;,sans-serif;color:#1F497D">Term3 Fact 2 =E2=80=93 15<sup>t=
+h</sup> October<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D">Kindly approve to take new PGP registra=
+tion at waiting status.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D">Centre : 11820 =E2=80=93 NIIT Chennai P=
+ondicherry Centre.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" width=3D"0" style=3D"width:256.25pt;margin-left:-.05pt;border-collapse:c=
+ollapse">
+<tbody>
+<tr style=3D"height:.2in">
+<td width=3D"64" nowrap=3D"" valign=3D"bottom" style=3D"width:48.0pt;border:=
+solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:.2in">
+<p class=3D"MsoNormal"><span style=3D"color:black">Sno<o:p></o:p></span></p>
+</td>
+<td width=3D"64" nowrap=3D"" valign=3D"bottom" style=3D"width:48.0pt;border:=
+solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:.=
+2in">
+<p class=3D"MsoNormal"><span style=3D"color:black">NCS IT Term1<o:p></o:p></=
+span></p>
+</td>
+<td width=3D"85" nowrap=3D"" valign=3D"bottom" style=3D"width:64.0pt;border:=
+solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:.=
+2in">
+<p class=3D"MsoNormal"><span style=3D"color:black">NCS &nbsp;IT<o:p></o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"color:black">Term2<o:p></o:p></span></=
+p>
+</td>
+<td width=3D"128" nowrap=3D"" valign=3D"bottom" style=3D"width:96.25pt;borde=
+r:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height=
+:.2in">
+<p class=3D"MsoNormal"><span style=3D"color:black">NCS IT <o:p></o:p></span>=
+</p>
+<p class=3D"MsoNormal"><span style=3D"color:black">Term3<o:p></o:p></span></=
+p>
+</td>
+</tr>
+<tr style=3D"height:.2in">
+<td width=3D"64" nowrap=3D"" valign=3D"bottom" style=3D"width:48.0pt;border:=
+solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:.2=
+in">
+<p class=3D"MsoNormal" align=3D"right" style=3D"text-align:right"><span styl=
+e=3D"color:black">1<o:p></o:p></span></p>
+</td>
+<td width=3D"64" nowrap=3D"" valign=3D"bottom" style=3D"width:48.0pt;border-=
+top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:.2in">
+<p class=3D"MsoNormal"><span style=3D"color:black">C&#43;&#43; - cleared<o:p=
+></o:p></span></p>
+</td>
+<td width=3D"85" nowrap=3D"" valign=3D"bottom" style=3D"width:64.0pt;border-=
+top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:.2in">
+<p class=3D"MsoNormal"><span style=3D"color:black">RDBMS =E2=80=93 <span sty=
+le=3D"background:yellow;mso-highlight:yellow">
+Not cleared</span><o:p></o:p></span></p>
+</td>
+<td width=3D"128" nowrap=3D"" valign=3D"bottom" style=3D"width:96.25pt;borde=
+r-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:.2in">
+<p class=3D"MsoNormal"><span style=3D"color:black">FACT1(HB, Spring, Node) =E2=
+=80=93<span style=3D"background:yellow;mso-highlight:yellow">Not cleared</sp=
+an><o:p></o:p></span></p>
+</td>
+</tr>
+<tr style=3D"height:.2in">
+<td width=3D"64" nowrap=3D"" valign=3D"bottom" style=3D"width:48.0pt;border:=
+solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:.2=
+in">
+<p class=3D"MsoNormal" align=3D"right" style=3D"text-align:right"><span styl=
+e=3D"color:black">2<o:p></o:p></span></p>
+</td>
+<td width=3D"64" nowrap=3D"" valign=3D"bottom" style=3D"width:48.0pt;border-=
+top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:.2in">
+<p class=3D"MsoNormal"><span style=3D"color:black">DS =E2=80=93 cleared<o:p>=
+</o:p></span></p>
+</td>
+<td width=3D"85" nowrap=3D"" valign=3D"bottom" style=3D"width:64.0pt;border-=
+top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:.2in">
+<p class=3D"MsoNormal"><span style=3D"color:black">Junit (TDD) =E2=80=93 <sp=
+an style=3D"background:yellow;mso-highlight:yellow">
+Not cleared</span><o:p></o:p></span></p>
+</td>
+<td width=3D"128" nowrap=3D"" valign=3D"bottom" style=3D"width:96.25pt;borde=
+r-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:.2in">
+<p class=3D"MsoNormal"><span style=3D"color:black">FACT2(Angular and React) =
+=E2=80=93 <o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:black;background:yellow;mso-high=
+light:yellow">Not cleared</span><span style=3D"color:black"><o:p></o:p></spa=
+n></p>
+</td>
+</tr>
+<tr style=3D"height:.2in">
+<td width=3D"64" nowrap=3D"" valign=3D"bottom" style=3D"width:48.0pt;border:=
+solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:.2=
+in">
+<p class=3D"MsoNormal" align=3D"right" style=3D"text-align:right"><span styl=
+e=3D"color:black">3<o:p></o:p></span></p>
+</td>
+<td width=3D"64" nowrap=3D"" valign=3D"bottom" style=3D"width:48.0pt;border-=
+top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:.2in">
+<p class=3D"MsoNormal"><span style=3D"color:black">Java- cleared<o:p></o:p><=
+/span></p>
+</td>
+<td width=3D"85" nowrap=3D"" valign=3D"bottom" style=3D"width:64.0pt;border-=
+top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:.2in">
+<p class=3D"MsoNormal"><span style=3D"color:black">Advance Java =E2=80=93cle=
+ared<o:p></o:p></span></p>
+</td>
+<td width=3D"128" nowrap=3D"" valign=3D"bottom" style=3D"width:96.25pt;borde=
+r-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:.2in">
+<p class=3D"MsoNormal"><span style=3D"color:black">&nbsp;<o:p></o:p></span><=
+/p>
+</td>
+</tr>
+<tr style=3D"height:.2in">
+<td width=3D"64" nowrap=3D"" valign=3D"bottom" style=3D"width:48.0pt;border:=
+solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:.2=
+in">
+<p class=3D"MsoNormal" align=3D"right" style=3D"text-align:right"><span styl=
+e=3D"color:black">4<o:p></o:p></span></p>
+</td>
+<td width=3D"64" nowrap=3D"" valign=3D"bottom" style=3D"width:48.0pt;border-=
+top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:.2in">
+<p class=3D"MsoNormal"><span style=3D"color:black">&nbsp;<o:p></o:p></span><=
+/p>
+</td>
+<td width=3D"85" nowrap=3D"" valign=3D"bottom" style=3D"width:64.0pt;border-=
+top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:.2in">
+<p class=3D"MsoNormal"><span style=3D"color:black">HTML5 -cleared<o:p></o:p>=
+</span></p>
+</td>
+<td width=3D"128" nowrap=3D"" valign=3D"bottom" style=3D"width:96.25pt;borde=
+r-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:.2in">
+<p class=3D"MsoNormal"><span style=3D"color:black">&nbsp;<o:p></o:p></span><=
+/p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D">Regards, Saravanan<o:p></o:p></span></p=
+>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Cal=
+ibri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot;=
+Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;fo=
+nt-family:&quot;Calibri&quot;,sans-serif"> NIIT Pondy &lt;<a href=3D"mailto:=
+niit.puducherry@gmail.com">niit.puducherry@gmail.com</a>&gt;
+<br>
+<b>Sent:</b> Monday, September 30, 2019 3:58 PM<br>
+<b>To:</b> Saravanan P &lt;<a href=3D"mailto:Saravanan.1.P@niit.com">Saravan=
+an.1.P@niit.com</a>&gt;<br>
+<b>Subject:</b> Fwd: FACT report<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Dear sir,<o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;FACT report,=
+ file attached ., please find the attachment.<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">thank&nbsp;you.<br clear=3D"all">
+<o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">-- <o:p></o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal">With regards,&nbsp;<o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal">NIIT Pondicherry Team,<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Phone- 0413-4206840<o:p></o:p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</XXXX>
+</XXXX>
+<p></p>
+Visit us at: http://www.niit.com<br>
+Follow us on: http://www.twitter.com/niitltd<br>
+<p></p>
+----------------------------------------------------------------------------=
+---------------------------------<br>
+<p></p>
+DISCLAIMER<br>
+This email and any files transmitted with it are confidential and are solely=
+ for the use of the individual or entity to which it is addressed. Any use, =
+distribution, copying or disclosure by any other person is strictly prohibit=
+ed. If you receive this transmission in error, please notify the sender by r=
+eply email and then destroy the message. Opinions, conclusions and other inf=
+ormation in this message that do not relate to official business of the comp=
+any shall be understood to be neither given nor endorsed by NIIT Ltd. Any in=
+formation contained in this email, when addressed to Clients is subject to t=
+he terms and conditions in governing client contract.<br>
+</body>
+</html>
+
+--_NextPart_1_5b3olcjeVegGJhUvUzHQIHNtxTs--
